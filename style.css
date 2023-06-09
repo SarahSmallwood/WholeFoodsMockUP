@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* top navbar */
+.navBar {
+    background: #1f4d38;
+    padding: 10px;
+    display: flex;
+    height: 65px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* left logo */
+.logo {
+    padding: 8px;
+    border-right: 1px solid white;
+    margin-right: 20px;
+}
+/* browsing list */
+.list {
+    margin-right: 50px;
+    padding-top: 10px;
+    display: flex;
+}
+ul {
+    display: flex;
+    list-style: none;
+    color: #fff;
+    gap: 25px;
+}
+li {
+    /* margin-right: 30px; */
+    font-size: 18px;
+    font-family: verdana sans Verdana, Geneva, Tahoma, sans-serif;
+}
+/* search bar */
+.search{
+    height: 30px;
+    width: 300px;
+    background: #fff;
+    display: flex;
+    padding: 5px;
+}
+.box {
+    margin-top: 10px;
+    width: 250px;
+    opacity: 65%;
+    padding-top: 3px;
+}
+.logIn {
+    margin-top: 20px;
+    display: flex;
+    color: #fff;
+    gap: 20px;
+}
+.store{
+    text-align: right;
+    padding-top: 15px;
+    background-color: #f8f7f5;
+    height: 30px;
+    color: #1f4d38;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-end;
+}
+.arrow{
+    height: 15px;
+}
+hr{
+    width: 20px;
+}
+.mainContainer{
+    display: flex;
+    background-color: #f8f7f5;
+}
+.wholeFoods{
+    padding: 50px;
+    width: 85%;
+    /*height: 750px; */
+    margin-top: 7%;
+    text-align: center;
+    
+}
+hr{
+    width: 45px;
+}
+.sideContainer{
+    background-color: #fff;
+    width: 45%;
+    display: flex;
+    gap: 30px;
+    padding-top: 100px;
+    margin-right: 10px;
+}
+.grocery{
+    /* width: 10%; */
+    margin-bottom: 10px;
+    /* right: 85%; */
+}
+.description{
+    height: 250px;
+    text-align: left;
+    padding: 20px;
+    font-family: verdana sans Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Image{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    
+}
+.order{
+    font-size: 18px;
+    width: 300px;
+    text-align: left;
+    font-family: verdana sans Verdana, Geneva, Tahoma, sans-serif;
+}
+.smallHead{
+    font-size: 20px;
+    padding-bottom: 15px;
+    text-align: left;
+    font-family: verdana sans Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.largeHead{
+    font-size: 60px;
+    color: #2e2d2b;
+    font-family: verdana sans Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 15px;
+    text-align: left;
+}
+.foodText{
+    height: 600px;
+    width: 200px;
+    text-align: center;
+    margin-left: 8%;
+}
+.footersection {
+    background-color: #004E36;
+    height: 500px;
+  }
+  .logopic2 {
+    /* width: 20%; */
+    margin-left: 40px;
+    padding: 20px;
+  }
+  .copyright {
+    background-color: #006936;
+    margin-top: -10px;
+  }
+  #copylist {
+    color: black;
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+  }
+  .footersection {
+    color: white;
+  }
+  .contentsection {
+    display: flex;
+    justify-content: space-around;
+  }
+  .amazon {
+    color: white;
+    text-align: center;
+  }
+  .NeedHelp {
+    border-left: solid white;
+    padding-left: 40px;
+    height: 350px;
+  }
+  .shopping {
+    margin-bottom: 25px;
+  }
+  .shop {
+    list-style: none;
+  }
+  .customer {
+    margin-bottom: 50px;
+  }
+  .email {
+    background-color: #004E36;
+    border: white 0.2px solid;
+    color: white;
+    height: 50px;
+    width: 200px;
+    margin-left: 20px;
+  }
+  .Socials {
+    height: 30px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .amazon {
+    height: 35px;
+  }
+  .pop {
+    height: 18px;
+  }
+  #copylist li {
+    font-size: 13px;
+  }

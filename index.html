@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Whole Foods</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+
+    <body>
+        <!-- Nav Bar-->
+        <div class="navBar">
+            <div class="logo">
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTQ0IiBoZWlnaHQ9IjM3IiB2aWV3Qm94PSIwIDAgMTQ0IDM3Ij4KICAgIDxkZWZzPgogICAgICAgIDxwYXRoIGlkPSJwZndlMjVvdmxhIiBkPSJNMTMwLjI0MiAxNi43MmMwLTMuOTE3LTEuNTYxLTYuMjE2LTQuMTkyLTYuMjE2IDAgMC0uNTAyLjAzMy0uNzUuMDc1LS45NTMuMTU0LTEuMjM4LjQxNC0xLjIzOCAxLjU5NXY5LjMxN2MwIDEuMjcuNzg2IDEuMzQ2IDEuODk4IDEuNDEgMi43MS4xNSA0LjI4Mi0yLjI2OCA0LjI4Mi02LjE4MXptMS4zMi01LjcxM2MxLjMgMS4zMTEgMi4wMDcgMy4zMzUgMi4wMDcgNS43MzggMCAyLjY5LS45MDMgNC45MTMtMi41NDYgNi4yMjUtMS4yNzIgMS4wMzgtMi44NzMgMS41MDgtNS4yODYgMS41MDgtMi43NTggMC00LjU2Mi0uMjQ4LTUuMjA4LS4zNDItLjY0NS0uMDk2LS45NzctLjE2NS0uOTc3LS42NSAwLS4zMzUuMjItLjYxOC41MjYtLjYxOGguNDVjLjE1MiAwIC4zMDMtLjEyLjM3Ni0uMjkuMDQ0LS4xNi4wNjgtLjI5NS4wNjgtLjg3NnYtOS44OThjMC0uNTgtLjAyNC0uNzE2LS4wNjgtLjg3NS0uMDczLS4xNy0uMjI0LS4yOTItLjM3NS0uMjkyaC0uNDUxYy0uMzA1IDAtLjUyNi0uMjgyLS41MjYtLjYxNyAwLS40ODUuMzMyLS41NTQuOTc3LS42NS42NDYtLjA5MyAyLjQ1LS4zNDIgNS4yMDgtLjM0MiAyLjc1NiAwIDQuNDY5LjYgNS44MjQgMS45Nzl6bS0xNS40NTQgNS43ODRjMC0zLjc3NC0xLjU0Ni02LjE1MS00LTYuMTUxLTIuNDI5IDAtMy45MzIgMi4zMzItMy45MzIgNi4xOTcgMCAzLjc3NiAxLjQ4MSA2LjA2MyAzLjk3OCA2LjA2MyAyLjQzIDAgMy45NTQtMi4zNzcgMy45NTQtNi4xMDl6bS0xNC41MDUgMGMwLTMuNzc0LTEuNTQ2LTYuMTUxLTMuOTk5LTYuMTUxLTIuNDMgMC0zLjkzMiAyLjMzMi0zLjkzMiA2LjE5NyAwIDMuNzc2IDEuNDggNi4wNjMgMy45NzcgNi4wNjMgMi40MyAwIDMuOTU0LTIuMzc3IDMuOTU0LTYuMTA5em0xMC41MjktNy43NWM0LjQxOCAwIDcuMjg5IDMgNy4yODkgNy42NjIgMCA0Ljc1My0yLjg1IDcuNzk2LTcuMzM0IDcuNzk2LTMuNTY3IDAtNi4xMjItMi4wMjQtNi45NDEtNS4yODktLjAxMi0uMDI0LS4wMi0uMDQ3LS4wMjQtLjA3MS0uMDczLS4zNjgtLjQtLjM5My0uNDc5LS4wMDQtLjAwMy4wMTQtLjAxLjAyNy0uMDE2LjA0LS44MyAzLjMxLTMuMzk2IDUuMzI0LTcuMDQ0IDUuMzI0LTQuMzc2IDAtNy4yMjYtMy4wNDMtNy4yMjYtNy42ODQgMC00Ljc1MyAyLjgyOC03Ljc3NCA3LjI3LTcuNzc0IDMuNjQ1IDAgNi4yMzUgMi4wNDIgNy4wMzIgNS4zNzYuMDgxLjM4LjQwNi4zNTIuNDc2LS4wMTMgMC0uMDA1LjAwMy0uMDEuMDA0LS4wMTMuODEyLTMuMzMxIDMuMzYzLTUuMzUgNi45OTMtNS4zNXptLTIxLjU4NCAyLjM5NWwtLjMxMS0xLjU0NWMtLjA5LS40MDctLjM0MS0uNTU4LS43ODctLjU1OGgtOS41OWMtLjc0MyAwLTEuMDE2LjE2LTEuMDE2LjY1MiAwIC4zMzEuMjczLjYxOS41Ny42MTloLjQ0N2MuMTMgMCAuMzA5LjEzNS4zNTUuMzMzLjA2OC4xOC4wODkuMjkzLjA4OS44N3Y5Ljk0MmMwIC42LS4wMjYuNzA4LS4wNy44NjYtLjA3NC4xNzctLjIyNS4yOTEtLjM3NC4yOTFoLS40NTJjLS4zMDUgMC0uNTcuMjg2LS41Ny42MjEgMCAuNDkuMjY1LjY0NSAxLjAyMi42NDVoNC4wN2MuODE0IDAgMS4wODUtLjE1NSAxLjA4NS0uNjQ1IDAtLjMzNS0uMjQtLjYyLS41ODUtLjYyaC0uNWMtLjE3OCAwLS4zNzgtLjExNS0uNDcxLS4yOTItLjA1NC0uMTU4LS4wNTQtLjI2NS0uMDU0LS44NjZsLS4wMDMtMy42MjNjMC0uNS4wNjktLjcxNS4yMDQtLjgwNi4xMDEtLjA3LjI2My0uMDg1Ljg5OC0uMDg1aDEuODI0Yy45MjggMCAxLjA2MS4wNjcgMS4xMjguNTEybC4wMjMuMTQ2Yy4wNjcuMzc4LjI2NS41NzguNTk2LjU3OC40NjYgMCAuNjItLjI2Ny42Mi0xLjA0NHYtMS44N2MwLS43NzctLjE1NC0xLjA0NS0uNjItMS4wNDUtLjMzIDAtLjUzLjE3OC0uNTk2LjU1NmwtLjAxNy4xMzljLS4wNjcuNDQ0LS4yLjUxMS0xLjEyOC41MTFoLTEuODNjLS42MzUgMC0uNzk3LS4wMTUtLjg5OC0uMDg2LS4xMzUtLjA5LS4yMDQtLjMwNS0uMjA0LS44MDV2LTIuNjRjMC0xLjE4LjEzNC0xLjM0MSAxLjM0My0xLjM0MWgyLjg0YzEuMDMgMCAxLjQ3NS4wNzIgMS42OTIuNjQzLjEwMy4yNzEuMTkzLjQzNS4yMTguNDc4LjE1LjI5LjM1NS4zNDguNTcuMzQ4LjQwMyAwIC42LS4zMS40ODItLjg4em01Mi4yNTUgNS43NzVjLS43MS0uNzMyLTEuMjgzLTEuMTc4LTMuMDMtMi40LS40Ny0uMzMxLS44Mi0uNTg1LTEuMDkzLS43OC0uNDM5LS4zMzYtLjc5My0uNjg5LTEuMDE2LTEuMDIzLS4xODQtLjI0NS0uMjQtLjU4My0uMjQtLjkxIDAtLjkxMi42NjMtMS40OTggMS42ODMtMS40OTguNzIzIDAgMS40ODQuMjUgMi4wNzguNzE1LjQ2NC4zNi41NTcuNDQ3IDEuMDUzIDEuMjAzLjIwNC4yODQuMzUuMzc1LjU4Ni4zNzUuMzc5IDAgLjYzOS0uMjQuNjM5LS41MyAwLS4wNzEgMC0uMjA1LS4wNDEtLjMxMmwtLjUyOS0yLjQwNGMtLjA5LS4zOTUtLjI5Ny0uNjItLjYyMy0uNjItLjE3NyAwLS4yNDguMDItLjQ2OC4xOC0uMTkuMTI3LS4zNi4yLS41MDguMi0uMDg1IDAtLjItLjAyNS0uMy0uMDQ0LS4zMTMtLjA3LS40OTItLjExMS0uNTYyLS4xMzYtLjY0My0uMTQtMS4yODEtLjItMS45MDctLjItMi40MzQgMC00LjA2NiAxLjQyNy00LjA2NiAzLjU4MSAwIC44ODcuMjg0IDEuNjg0Ljg0MiAyLjMzNS42ODguNzk1Ljg4My45MjggMi45NzcgMi40MDMgMS4yNzIuODg3IDEuODY3IDEuMzc4IDIuMzQ2IDEuOTA4LjQ3LjUzNi43MiAxLjA2OC43MiAxLjY2OSAwIDEuMTc3LS45OCAxLjk4My0yLjQxNiAxLjk4My0xLjI2NCAwLTIuNTAyLS42NzItMy4yNy0xLjc1OGwtLjMxNy0uNDQyYy0uMTMyLS4xNzktLjMyNS0uMjk5LS41NTQtLjI5OS0uMzk0IDAtLjcuMy0uNy42OTYgMCAuMTEuMDE4LjMxLjA1OS40NDVsLjU1NSAyLjIyNWMuMTMyLjUzLjMxNS43MzQuNjg1LjczNC4xOTYgMCAuMzA1LS4wNDQuNTEzLS4yMDQuMTkyLS4xNzUuMjg1LS4yMi40NzMtLjIyLjEyNSAwIC4xNi4wMjUuNDguMTEuNjI4LjIgMS41MDMuMzE0IDIuMzIuMzE0IDIuOTIgMCA0LjgyOC0xLjY5NSA0LjgyOC00LjI2OCAwLTEuMTQtLjQ0OS0yLjI1LTEuMTk3LTMuMDI4ek00Mi40MSAxMC4zODNjMS44OTkuNzMzIDIuNjU4IDIuODExIDIuNjU4IDYuMDMgMCAzLjktMS41OTQgNi4zODQtNC4xMzUgNi4zODQtMi42MSAwLTQuMTU3LTIuMzkxLTQuMTU3LTYuMzM4IDAtMi41NDYuMzYzLTQuNTUgMi4xNS02LjMxMiAxLjc5LTEuNzYzIDMuNDYxLTEuNTExIDUuMDktMy42MjMuNjktLjg5Ny42OC0xLjY2Ni4xNTYtMS44MTYtLjQ5My0uMTQtLjgwOS41MTQtMS4yOS44My0xLjc2NCAxLjE1Ny0zLjc1NS4wOC00LjgyMy0xLjEyNS0xLjA4Ni0xLjIyNi0yLjQ5OC0xLjE4LTMuMzMtLjk5Ny0uMzYuMDc5LS41NjQtLjIwOC0uMTctLjUwOS45LS42ODggMi43NC0uNzM0IDMuODc2LjMuOTY4Ljg4NCAyLjI2NyAxLjU4NiAzLjIyNiAxLjQwMy41NzItLjExLjYyMy0uNzctLjAzLTEuMDA0LTEuODItLjY1Mi0xLjY0NC0yLjczMS00LjE0Ny0zLjQ1LTIuOTUyLS44NS01LjYyNCAxLjkzNy02LjM2MyA0LjY5OC0uMjEzLjc5NC4yNjMgMS4yNDggMS4wMDQuOTI4IDIuNDU1LTEuMDYxIDMuMDYzLjQyIDUuMTQ4IDEuMjQ4LjkzMi4zNzQgMi4wNTYuMjg2IDIuNjcuMTY2LjUxNC0uMTAyLjUxNi40MTUuMjI3LjUxNC0xLjM5OS40NzgtMi44MjcgMS4yMDgtMy42NzIgMS44NC0yLjAyIDEuMzYtMy4xODYgMy43NjQtMy4xODYgNi44ODYgMCA0Ljg1MSAyLjk3OSA4LjAzMyA3LjU1MSA4LjAzMyA0LjY5IDAgNy42NjktMy4xODIgNy42NjktOC4xNDkgMC0yLjg1NS0uOTA1LTQuOTg3LTIuNzE3LTYuMzMtMS4wNS0uNzc4LTIuMDA0LTEuMTEtMi45ODMtLjk5NS0xLjE4NS4xNC0xLjM0MyAxLjA0My0uNDIyIDEuMzg4em0tMjIuNzI3LjExMmMuMzktLjA1NS45MTguMDIyLjkxOCAxLjE1N3Y5Ljk4M2MwIC41OTcgMCAuNzEyLS4wNjkuODkyLS4wNC4xNTUtLjIyNC4yNjYtLjM3Ny4yNjZoLS40NGMtLjMwNSAwLS41NzMuMjktLjU3My42MiAwIC40OTIuMjY4LjY0MyAxLjAxMy42NDNoNC4wM2MuNzAzIDAgLjk1NC0uMTUxLjk1NC0uNjE3IDAtLjM1Ni0uMjI3LS42NDYtLjUzMS0uNjQ2aC0uNDIzYy0uMTg0IDAtLjM1NS0uMTExLS40MjQtLjI2Ni0uMDQtLjE4LS4wNi0uMzEtLjA2LS44OTJ2LTMuMzc4YzAtMS4wMjUuMDg5LTEuMTEuOTA3LTEuMTFoMy4wMDZjLjQ0IDAgLjY2NC4wNy43OC4xOTkuMS4xMzUuMS4yMi4xIDEuMDQ3djMuMjQyYzAgLjU4MiAwIC43MTItLjA1NS44OTItLjA4LjE1NS0uMjUzLjI2Ni0uNDAzLjI2NmgtLjQyMmMtLjMwNyAwLS41NzYuMjktLjU3Ni42MiAwIC40OTIuMjQuNjQzLjk5OC42NDNoNC4wMmMuNzc3IDAgMS4wMjItLjE1MSAxLjAyMi0uNjQzIDAtLjMzLS4yNDUtLjYyLS41NzMtLjYyaC0uNDQ4Yy0uMTU0IDAtLjMzLS4xMTEtLjM3OC0uMjY2LS4wNjEtLjE4LS4wNzctLjMxLS4wNzctLjg5MnYtOS45ODNjMC0uNTU2LjAxNi0uNzEuMDc3LS44NzUuMDQ5LS4xNDcuMjI0LS4yODIuMzc4LS4yODJoLjQ0OGMuMzA0IDAgLjU3My0uMjY0LjU3My0uNjI4IDAtLjQ4OC0uMjctLjYzOC0xLjAyMS0uNjM4aC00LjAyMWMtLjc1OCAwLTEuMDI1LjE1LTEuMDI1LjYzOCAwIC4zNjQuMjY3LjYyOC42MDMuNjI4aC40MjJjLjE1IDAgLjMyMy4xMTEuNDAzLjI4Mi4wNTUuMTY0LjA1NS4yOTUuMDU1Ljg3NXYyLjczNWMwIC44MjQgMCAuOTExLS4xIDEuMDQ3LS4xMTYuMTI5LS4zNC4yLS43OC4yaC0zLjAwNmMtLjgxOCAwLS45MDctLjA4Ni0uOTA3LTEuMTEzdi0yLjg3YzAtLjU1NS4wMi0uNzEuMDYtLjg3NC4wNjktLjE0Ny4yNC0uMjgyLjQyNC0uMjgyaC40MjNjLjMwNCAwIC41NDgtLjI2NC41NDgtLjYyOCAwLS40ODgtLjI0NC0uNjM4LS45NzEtLjYzOGgtNy42NjZjLS41OSAwLS44NDIuMTc2LS44NDIuNjIgMCAuMzU3LjIyNC41NzcuNzExLjYyMi41MzguMDcuNzc0LjI0NS43NzQuNTggMCAuMTMtLjAyNC4zMTEtLjA4Ny41MzIgMCAwLTIuMTE3IDcuMTU0LTIuNDUgOC4yNDMtLjA1Ni4xOC0uMjQ2LjIyMy0uMzEuMDIxLS4zNC0xLjA3LTIuNDgtNy44ODMtMi40OC03Ljg4My0uMTgzLS41MzYtLjIyOC0uNzMyLS4yMjgtLjkzNiAwLS4zOTguMTU4LS41MzMuNzQ4LS42MDIuNDkyLS4wNy43MTYtLjI0NC43MTYtLjU5NiAwLS40LS4yNDMtLjYtLjc0OS0uNkg3Ljk4NGMtLjUxNyAwLS43NzMuMjQ0LS43NzMuNjcgMCAuMzMxLjE3NS40ODIuNjMuNTk1LjUxMi4xMzUuNjkxLjI1NS44MjIuNTc3LjA0OC4wOTUuMDk4LjI3LjE4Mi41MTEgMCAwIC43NDcgMi4yMTcuNzk3IDIuMzc3LjE0LjQ1My4wOS44NjUtLjAzIDEuMjU5LS4wNDQuMTQtMS4yMTEgMy41NDgtMS42NCA0Ljc4Ni0uMDY4LjItLjI3LjIwNy0uMzMzLjAyOC0uMzg2LTEuMTE4LTIuODI4LTguMDY5LTIuODI4LTguMDY5bC0uMTc1LS41MDdjLS4wNi0uMTg1LS4wOC0uMzQ0LS4wOC0uNDk2IDAtLjM1NS4xOTktLjUxLjY4Ny0uNTU2LjU3My0uMDQ4Ljc5Ni0uMTk5Ljc5Ni0uNTc1IDAtLjQtLjIyMy0uNi0uNzI4LS42SC43NDVjLS41MSAwLS43NDUuMi0uNzQ1LjU3NSAwIC4zNi4xNDcuNTE0LjYxOS42LjcwOS4xNTYuODE0LjI2NiAxLjE0MyAxLjE3OGw0LjM0MiAxMS42OTljLjMwNi44NDMuNjIgMS4xMDkgMS4yNjEgMS4xMDkuMjg5IDAgLjU3OS0uMTExLjc1My0uMjQuMTc5LS4xODEuMjM1LS4zMzYuNDQ3LS44NjkgMCAwIDEuOTU5LTUuNDkyIDIuMDEtNS42NjcuMDUyLS4xNzQuMjQtLjE2OC4zMDEuMDEyLjA2MS4xOCAxLjg4MiA1LjY1NSAxLjg4MiA1LjY1NS4yNjguODIzLjYgMS4xMDkgMS4yNiAxLjEwOS42NjMgMCAuOTY0LS4zMSAxLjI4LTEuMzk4bDMuNTI3LTExLjQxYy4yNC0uNzg0LjQ2Ny0xLjAzMy44NTgtMS4wODh6bTM1LjQyMyAxMi4wNzNjLS44OSAwLTEuMjI3LS4wNC0xLjQ1NC0uMTk3LS4yNjEtLjE1Mi0uMzAyLS4zOC0uMzAyLTEuMzU4di05LjMzNmMwLS41ODEgMC0uNzE2LjA2NS0uODY3LjA2Mi0uMTc5LjI2MS0uMjkuNDY0LS4yOWguNDhjLjMxNiAwIC41ODctLjI2Ni41ODctLjYyIDAtLjQ5Mi0uMjctLjY1MS0xLjA2Ny0uNjUxaC00LjA4N2MtLjc2MSAwLTEuMDI5LjE1OS0xLjAyOS42NTEgMCAuMzU0LjI2OC42Mi42MDIuNjJoLjQyN2MuMTQ2IDAgLjMyNS4xMTEuMzY5LjI5LjA2Ni4xNzYuMDg2LjI2Ni4wODYuODY3VjIxLjczYzAgLjU1NS0uMDIuNjYyLS4wODYuODI2LS4wNDQuMTUtLjIyMy4yODYtLjM2OS4yODZoLS40MjdjLS4zMDkgMC0uNTUzLjI3LS41NTMuNTk3IDAgLjQ5NC4yNDQuNjQyLjk4LjY0Mmg4LjMyMmMuNDQ3IDAgLjY5OC0uMTUxLjc4OC0uNTU3bC4zNC0xLjcyOGMuMTE4LS41Ny0uMDgtLjg3OS0uNDgzLS44NzktLjIxNiAwLS40NS4xMy0uNTk4LjQyMS0uMDI2LjA0NC0uMDY2LjE0My0uMTkuNDA2LS4yNzMuNTc3LS44MzEuODI0LTEuNjIxLjgyNGgtMS4yNDR6bTE1Ljg4Ny0xLjY1Yy0uMjE2IDAtLjQ1LjEyOS0uNi40MjEtLjAyNC4wNDMtLjA2NS4xNDItLjE5LjQwNC0uMjcyLjU3OS0uODMuODI2LTEuNjE4LjgyNmwtMi4yMDIuMDA3Yy0uNzI0IDAtMS4wMy0uMDQ5LTEuMzE0LS4xNTUtLjM1LS4xMzYtLjQyLS4zODQtLjQyLTEuNTYxdi0yLjgyYzAtLjQ5OC4wNy0uNzE1LjIwNC0uODA1LjEwMS0uMDcuMjY0LS4wODYuODk5LS4wODZoMS4wMjFjLjkzIDAgMS4wNjIuMDY3IDEuMTI5LjUxMmwuMDIzLjE0N2MuMDY3LjM3OC4yNjYuNTc4LjU5OC41NzguNDY0IDAgLjYxOS0uMjY2LjYxOS0xLjA0NHYtMS44NjljMC0uNzc4LS4xNTUtMS4wNDYtLjYxOS0xLjA0Ni0uMzMyIDAtLjUzMS4xNzgtLjU5OC41NTZsLS4wMTYuMTM5Yy0uMDY3LjQ0NC0uMi41MS0xLjEyOS41MWgtMS4wMjhjLS42MzUgMC0uNzk4LS4wMTUtLjg5OS0uMDg1LS4xMzQtLjA5LS4yMDQtLjMwNi0uMjA0LS44MDV2LTIuNjRjMC0xLjE4LjEzNC0xLjM0IDEuMzQzLTEuMzRoMi4wODNjMS4wMjggMCAxLjQ3NS4wNzEgMS42OTEuNjQxLjEwMy4yNzEuMTkzLjQzNi4yMjEuNDguMTQ3LjI5LjM1Mi4zNDcuNTY3LjM0Ny40MDQgMCAuNjAyLS4zMS40ODQtLjg4bC0uMzEyLTEuNTQ0Yy0uMDktLjQwOC0uMzQxLS41NTgtLjc4OC0uNTU4aC04LjgzYy0uNzQ0IDAtMS4wMTcuMTYtMS4wMTcuNjUyIDAgLjMzLjI3My42Mi41Ny42MmguNDQ2Yy4xMyAwIC4zMS4xMzUuMzU1LjMzMi4wNjkuMTguMDg5LjI5NC4wODkuODd2OS45NDJjMCAuNi0uMDIuNzEyLS4wOS44OS0uMDQ0LjE1Mi0uMTk5LjI4Ny0uMzU0LjI4N2gtLjQ0NmMtLjI5NyAwLS41NS4yNy0uNTUuNTk4IDAgLjQ5NS4yNTMuNjQ1Ljk5Ni42NDVoOC42NzRsLjU2Ny0uMDAzYy40NDYgMCAuNjk3LS4xNDkuNzg3LS41NTdsLjM0LTEuNzI3Yy4xMTktLjU3LS4wOC0uODc5LS40ODItLjg3OXptMjguNDQgOC41NDljLS4zOTEgMC0uMzY4LjUxMi0uMzY4Ljc3MyAwIC4yNC4wODMuNTI0LjM4LjUyNGgxLjgyMmMuMzMgMCAuNDI3LjEyNy40MjcuMzl2NS40MjdjMCAuMzc0LjI3LjQxMy42ODMuNDEzLjQyNCAwIC42OTItLjA0NC42OTItLjQyNmwtLjAxMy01LjQyMmMwLS4yOTguMTgtLjM4Mi40MjctLjM4MmgxLjgwNmMuMjk2IDAgLjQwNy0uMjM2LjQwNy0uNjY2IDAtLjQ4NC0uMTc1LS42MzEtLjQzNy0uNjMxaC01LjgyNXptLTEwLjQtLjAxM2MtLjMzOCAwLS40NTUuMjA2LS40NTUuNDk4djYuNDM2YzAgLjM5LjEzMy41NDguNDYzLjU0OGg1LjY4M2MuMzEzIDAgLjM5LS4yODUuMzktLjYzNSAwLS40ODMtLjEwMi0uNjc0LS4zOTMtLjY3NEg5MC4zMWMtLjIxMyAwLS4zNTUtLjEyOS0uMzU1LS4zOXYtMS4xYzAtLjIzNy4xODUtLjM4LjM5LS4zOGgyLjU2OGMuMjg1IDAgLjM2LS4zMDIuMzYtLjY0NyAwLS4zOTgtLjA4Mi0uNjY1LS4zOTEtLjY2NWgtMi41NzJjLS4yMDMgMC0uMzU1LS4xMi0uMzU1LS4zMzN2LTEuMDE0YzAtLjE5My4xMjYtLjMzMy4zMDctLjMzM2g0LjQ1NWMuMzcgMCAuNDIyLS4yOTkuNDIyLS42NzcgMC0uNDA4LS4wNjMtLjYzNC0uNDAzLS42MzRoLTUuNzAxem0tMTAuODA4LS4wMThjLS40OCAwLS43MjYuMDY2LS43MjYuNDZ2Ni42NTJjMCAuMzMzLjIxMy40NDYuNjIzLjQ0Ni4zODcgMCAuNzQtLjAyNi43NC0uNDR2LTIuMThjMC0uMjk4LjE5Ni0uNTU2LjQ0NC0uNTU2LjQ0NSAwIC43NzEuMDQzIDEuMDk2LjMyN2wyLjM4IDIuNTU4Yy4xNjIuMTk0LjMzMi4yOTMuOTYuMjkzLjU5MyAwIC45NjYtLjIxOC41Ni0uNjYyLS4yNy0uMjk1LTIuODQ3LTMuMTQ5LTIuODQ3LTMuMTQ5LS4xODEtLjIwMS0uMjQ4LS40MTkuMDE4LS42NSAwIDAgMi4xNDgtMS45NTQgMi4zMzYtMi4xNC4yNzQtLjI3Mi4xNjUtLjUzNy0uMDgtLjc3LS4yOTctLjI4Ni0uNjA3LS4yOTEtLjkxMS0uMDI3IDAgMC0yLjQ0OCAyLjI1Ny0yLjY4NyAyLjQ2NS0uMjE3LjE4Ny0uMzQzLjMwOS0uOTIyLjMwOS0uMjAyIDAtLjM0Ni0uMTU1LS4zNDYtLjQ4di0yLjAwOWMwLS4zNTktLjI1OC0uNDQ3LS42MzgtLjQ0N3ptLTExLjE0NCAxLjMxN2gyLjI5M2MuNzY5IDAgMS4zOTkuNDA1IDEuMzk5IDEuMjQgMCAuODM0LS42MyAxLjIzOC0xLjQgMS4yMzhoLTIuMjkyYy0uMjM3IDAtLjQ4Ni0uMTU1LS40ODYtLjQxNnYtMS42ODFjMC0uMjk4LjI0OS0uMzgxLjQ4Ni0uMzgxem01LjA1MyAxLjI0YzAtMS41NzMtMS4xMzctMi41NS0yLjY1NC0yLjU1aC0zLjkxNWMtLjE2NyAwLS4zMjEuMTA2LS4zMjEuMjg1bC0uMDEyIDYuODUyYzAgLjMzMy4xNjYuNDE2LjQ2Mi40MTYuMjI1IDAgLjkxMy4wNi45MTMtLjI5OWwtLjAxMi0xLjc5OGMwLS4yMDIuMTktLjM3LjM5Mi0uMzdoMS42NTJjLjI2IDAgLjQ1LjEzMy41OC4zMzRsMS4xNTcgMS44MDNjLjE3My4yNTcuNDM3LjMyNy44MzguMzI3LjcxIDAgLjkxOC0uMjI3LjY4OC0uNTc0LS4xNTItLjIyNy0xLjE5Ni0xLjc1LTEuMjU2LTEuODM2LS4xMTUtLjE2OC0uMDctLjI4Ni4xMjctLjQ1NS4zOS0uMzM1IDEuMzYxLS43NzggMS4zNjEtMi4xMzZ6bS0xNi42NDMgMS45NjRjLjA1LS4xMDcuODA1LTEuNjI5Ljg5MS0xLjg0Ni4wNzgtLjE5MS4yODYtLjE4My4zNy0uMDA2LjA5NC4xOTguODU4IDEuNzg1LjkwNiAxLjg4MS4wNzkuMTUtLjA1NS4yNy0uMTg2LjI3aC0xLjhjLS4xNzcgMC0uMjY2LS4xMi0uMTgtLjI5OXptLTIuNzMyIDIuNTg4Yy0uMi40Mi40MjYuNDQuNjE2LjQ0LjIxNCAwIC42NzctLjAzNi43Ny0uMjc1bC40MzEtLjgyYy4xMDktLjI3My4yODItLjQxOC40NzctLjQxOGgzLjA3Yy4xNTUgMCAuMjg0LjEwNi4zNDUuMjM3bC40ODIgMS4wMDFjLjEwOC4yNTEuNDUyLjI4Ni42NzYuMjg2LjIyNiAwIC44OTgtLjA2LjczOS0uNDEtLjA5LS4xOTYtMy4yMDMtNi44NjctMy4yMDMtNi44NjctLjEwMi0uMjE3LS4yNzEtLjMyMy0uNTc3LS4zMjMtLjMwNyAwLS40NzkuMTUtLjU3LjM1bC0zLjI1NiA2Ljh6bS04LjE1My0zLjg3NGwyLjE1NC0yLjk0MmMuMTMtLjIwMy4zMzItLjI4OC41Ny0uMjg4LjI2IDAgLjQ0Ny4wNTkuNTU2LjQ5NWwuNzU2IDYuNjc5Yy4wMzcuMzgxLS41NTYuMzgyLS44MTcuMzgyLS4xOSAwLS41NDUtLjEwOS0uNTQ1LS4zNThsLS41MjQtMy45OTNjLS4wMzQtLjE2NS0uMDk2LS4yMzgtLjIyOC0uMjM4LS4xMDYgMC0uMTU4LjA1LS4yMzUuMTQybC0xLjc4MyAyLjI5OGMtLjA5LjEyNS0uMjExLjIwMy0uMzU1LjIwMy0uMiAwLS4yOS0uMDU2LS40MDYtLjIyNmwtMS42NDYtMi4yMjhjLS4wNzEtLjA5My0uMTUyLS4xMTYtLjIzNi0uMTE2LS4xMyAwLS4xOTcuMTE0LS4yMTUuMjdsLS41MTMgMy44NjRjLS4wNS4zMTgtLjQzOS4zODItLjc2LjM4Mi0uMjI1IDAtLjYwNC0uMTA5LS42MDQtLjM5NGwuNzU3LTYuNTFjLjA4LS4zOTMuMTY1LS42MTYuNzIzLS42MTYuMTQyIDAgLjM3Mi4wNDEuNTUuMzJsMi4wNDMgMi44ODVjLjEwOC4xNTguMjMzLjI5LjM2OC4yODUuMTMzLS4wMDMuMjc0LS4xNDIuMzktLjI5NnoiLz4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGc+CiAgICAgICAgICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zMCAtMjApIHRyYW5zbGF0ZSgzMCAyMCkiPgogICAgICAgICAgICAgICAgPG1hc2sgaWQ9IjUyMW5veWx5dGIiIGZpbGw9IiNmZmYiPgogICAgICAgICAgICAgICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI3Bmd2UyNW92bGEiLz4KICAgICAgICAgICAgICAgIDwvbWFzaz4KICAgICAgICAgICAgICAgIDx1c2UgZmlsbD0iIzA0NkY0NiIgeGxpbms6aHJlZj0iI3Bmd2UyNW92bGEiLz4KICAgICAgICAgICAgICAgIDxnIGZpbGw9IiNGRkYiIG1hc2s9InVybCgjNTIxbm95bHl0YikiPgogICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0wIDBIMTQ0VjM3SDB6Ii8+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPgo=" alt="">
+            </div>
+        
+
+        <div class="list">
+            <ul>
+                <li>Browse Products</li>
+                <li>Order Online</li>
+                <li>Recipes</li>
+                <li>Weekly Sales</li>
+                <li>Find a Store</li>
+            </ul>
+        </div>
+
+        <div class="search">
+            <input type="text" class="box" placeholder="Search">
+        </div>
+        <div class="logIn">
+            <img src="" alt="">
+            <p>List</p>
+            <p>Login</p>
+        </div>
+
+        </div>
+        <!--Logo-->
+        <!---->
+        <div class="store">
+            <p>Find a store</p>
+            <img class="arrow" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTciIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAxNyAxNCI+CiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0cm9rZT0iIzAwNEUzNiIgc3Ryb2tlLXdpZHRoPSIyIj4KICAgICAgICA8cGF0aCBzdHJva2UtbGluZWNhcD0ic3F1YXJlIiBkPSJNMS40MSA3aDEyLjU5OSI+PC9wYXRoPgogICAgICAgIDxwYXRoIGQ9Ik05LjIxNyAxbDUuOTEyIDYtNS45MTIgNiI+PC9wYXRoPgogICAgPC9nPgo8L3N2Zz4K" alt="">
+         </div>
+
+         <div class="mainContainer">
+            <div class="wholeFoods">
+                <div class="foodText">
+                    <h3 class="smallHead"> Home  /  Online Ordering </h3>
+                    <h1 class="largeHead">Online Ordering</h1>
+                    <hr>
+                    <p class="order">Online ordering is a convenient way to get everything you need from Whole Foods Market. Shop for groceries with Amazon Prime, get lunch and dinner to go in our app, order catering for your next event, and even get gift cards to share with your loved ones. Check out all the ways you can order online.</p>
+                </div>
+            </div>
+         <div class="sideContainer">
+            <div class="Right">
+            <div class="grocery">
+                <img class="Image"src="https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com//content/0c/40/d768ca24432181a142ab6267b223/2022-cen-wfm-aug-prime-onlineordering._TTW_._CR0,1,660,495_._SR580,435_._QL100_.png" alt="">
+                <div class="description">
+                <h2>Grocery Pickup or Delivery</h2>
+                <p>Prime members can shop Whole Foods Market on Amazon.com for convenient delivery and free pickup in select ZIP codes.</p>
+                </div>
+            </div>
+            <div class="grocery">
+                <img class="Image"src="https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com//content/59/dc/797233fc4c63b9f1d95fbc33cf94/2022-cen-wfm-aug-catering-onlineordering._TTW_._CR0,1,660,495_._SR580,435_._QL100_.png" alt="">
+                <div class="description">
+                <h2> Catering and Everyday Entertaining</h2>
+                <p>Order meals, entrées and party must-haves online, and then pick them up at the store.</p>
+                </div>
+            </div>
+            </div>
+            <div class="Right">
+            <div class="grocery">
+                <img class="Image"src="https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com//content/01/28/3c9f706c4975bbdd4dd0ce979582/2022-cen-wfm-aug-phone-onlineordering._TTW_._CR0,1,660,495_._SR580,435_._QL100_.png" alt="">
+                <div class="description">
+                <h2>Lunch and Dinner To-Go</h2>
+                <p>Use the Whole Foods Market app to order hot pizza and other freshly prepared favorites for pickup or delivery starting at $2.99.</p>
+                </div>
+            </div>
+            <div class="grocery">
+                <img class="Image"src="https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com//content/2c/0a/a6e3d9394dc9af1a24fb311d79b3/wfm-gift-card-mockup-3-v2._TTW_._CR0,0,1160,870_._SR580,435_._QL100_.png" alt="">
+                <div class="description">
+                <h2>Gift Cards</h2>
+                <p>Treat your favorite food lover to a Whole Foods Market gift card. Send a virtual gift card via text or email, or ship a physical card.</p>
+                </div>
+            </div>
+            </div>
+            </div>
+         </div>
+    
+         <div class="footersection">
+            <img src="logo2.svg" alt="" class="logopic2" />
+            <div class="contentsection">
+              <div class="shopping">
+                <h2>Shopping</h2>
+                <p>Weekly Sales</p>
+                <p>Delivery and Pickup <img src="image.svg" alt="" class="pop" /></p>
+                <p>Meals and Catering</p>
+                <p>Amazon Prime at Whole Foods</p>
+                <p>Gift Cards <img src="image.svg" alt="" class="pop" /></p>
+                <p>Special Diets</p>
+                <p>Tips and Ideas</p>
+                <p>Recipes</p>
+              </div>
+              <div class="Mission">
+                <h2>Mission in Action</h2>
+                <p>Responsible Sourcing</p>
+                <p>Quality Standards</p>
+                <p>Community Giving</p>
+                <p>Environmental Stewardship</p>
+              </div>
+              <div class="about">
+                <h2>About</h2>
+                <p>About Whole Foods Market</p>
+                <p>Our Values</p>
+                <p>Departments</p>
+                <p>Information and Potential Suppliers</p>
+                <p>Careers</p>
+                <p>Newsroom</p>
+              </div>
+              <div class="NeedHelp">
+                <h3>Need help?</h3>
+                <div class="customer">
+                  <p>
+                    Visit customer care
+                    <img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTciIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAxNyAxNCI+CiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIyIj4KICAgICAgICA8cGF0aCBzdHJva2UtbGluZWNhcD0ic3F1YXJlIiBkPSJNMS40MSA3aDEyLjU5OSI+PC9wYXRoPgogICAgICAgIDxwYXRoIGQ9Ik05LjIxNyAxbDUuOTEyIDYtNS45MTIgNiI+PC9wYXRoPgogICAgPC9nPgo8L3N2Zz4="
+                      alt=""
+                      class="arrow"
+                    />
+                  </p>
+                </div>
+                <h3>Connect With Us</h3>
+                <div class="contacts">
+                  <img src="facebook.svg" alt="" class="Socials" />
+                  <img src="twitter.svg" alt="" class="Socials" />
+                  <img src="instagram.svg" alt="" class="Socials" />
+                  <img src="pinterest.svg" alt="" class="Socials" />
+                  <img
+                    src="https://www.wholefoodsmarket.com/wfm-web-assets/images/social-media/icon-social-youtube-white.svg"
+                    alt=""
+                    class="Socials"
+                  />
+                </div>
+                <button class="email">Sign up for email</button>
+              </div>
+            </div>
+          </div>
+          <div class="copyright">
+            <ul id="copylist">
+              <li>Copyright 2023 Whole Foods Market IP, inc</li>
+              <li>----------</li>
+              <li>Privacy Notice</li>
+              <li>Your Ads Privacy Choices</li>
+              <li>Conditions of Use</li>
+              <li>Internet-Based Ads</li>
+              <li>Site Map</li>
+              <li>Site Information</li>
+              <li>Legal</li>
+              <li>Corporate Policies</li>
+            </ul>
+            <div class="amazon">
+              <img src="Amazon company.PNG" alt="" class="amazon" />
+            </div>
+          </div>
+
+
+        
+
+        <!---->
+
+
+
+
+
+
+
+        
+        <script src="app.js" async defer></script>
+    </body>
+</html>
